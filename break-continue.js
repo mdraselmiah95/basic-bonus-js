@@ -40,7 +40,7 @@ const products = [{
     },
 ]
 
-function searchProduct(products, searchText) {
+/* function searchProduct(products, searchText) {
     const matched = [];
     for (const product of products) {
         const name = product.name;
@@ -52,4 +52,18 @@ function searchProduct(products, searchText) {
 }
 
 const matched = searchProduct(products, 'laptop');
-console.log(matched);
+console.log(matched); */
+
+/* for (const product of products) {
+    if (product.price < 10000) {
+        break;
+    }
+    console.log(product);
+} */
+
+for (const product of products) {
+    if (product.price < 10000) {
+        continue;
+    }
+    console.log(product);
+}
