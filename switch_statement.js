@@ -33,6 +33,7 @@ if (day === "monday") {
 } else if (day === "wednesday" || day === "thursday") {
   console.log("Write the code examples");
 } else if (day === "friday") {
+  console.log("Record the video");
 } else if (day === "saturday" || day === "sunday") {
 } else {
 }
