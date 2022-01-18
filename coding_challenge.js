@@ -10,7 +10,7 @@ HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 GOOD LUCK 😀
 */
 
-const bill = 275;
+const bill = 320;
 const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 const result = `The bill was ${bill}, the tip was ${tip}, and the total value is ${
   bill + tip
