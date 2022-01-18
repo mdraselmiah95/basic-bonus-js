@@ -35,5 +35,6 @@ if (day === "monday") {
 } else if (day === "friday") {
   console.log("Record the video");
 } else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend 📷");
 } else {
 }
