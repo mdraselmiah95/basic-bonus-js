@@ -22,3 +22,13 @@ switch (day) {
   default:
     console.log("Not a valid day");
 }
+
+//similar like this
+
+if (day === "monday") {
+} else if (day === "tuesday") {
+} else if (day === "wednesday" || day === "thursday") {
+} else if (day === "friday") {
+} else if (day === "saturday" || day === "sunday") {
+} else {
+}
