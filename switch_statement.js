@@ -31,6 +31,7 @@ if (day === "monday") {
 } else if (day === "tuesday") {
   console.log("Prepare theory videos");
 } else if (day === "wednesday" || day === "thursday") {
+  console.log("Write the code examples");
 } else if (day === "friday") {
 } else if (day === "saturday" || day === "sunday") {
 } else {
