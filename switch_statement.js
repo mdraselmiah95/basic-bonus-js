@@ -37,4 +37,5 @@ if (day === "monday") {
 } else if (day === "saturday" || day === "sunday") {
   console.log("Enjoy the weekend 📷");
 } else {
+  console.log("Not a valid day");
 }
